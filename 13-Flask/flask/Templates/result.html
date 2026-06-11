@@ -1,0 +1,9 @@
+<h1>
+    Based on the marks you got, you have {{ results }}
+
+    {% if results >= 50 %}
+        <p>Congratulations! You have passed with {{ results }} marks.</p>
+    {% else %}
+        <p>Sorry, you have failed with {{ results }} marks.</p>
+    {% endif %}
+</h1>
